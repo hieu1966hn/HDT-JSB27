@@ -15,3 +15,14 @@ Cài tiện ích: live-server:
 
 Giới thiệu 1 tiện ích: "Auto Rename Tag
 "
+
+- Tổng hợp kiến thức vừa học:Tìm hiểu về 3 thuộc tính CSS: inline, block, inline-block
+
+* inline: Viết nội dung trong dòng. không sử dụng được: width (rộng), height (cao), margin (khoảng cách các thẻ: top, bottom), padding (khoảng từ nội dung tới cạnh thẻ: top, bottom)
+
+* block: Viết nội dung chiếm chọn 1 hàng (width: 100%;).
+  Áp dụng được: width (rộng), height (cao), margin (khoảng cách các thẻ: top, bottom, left, right), padding (khoảng từ nội dung tới cạnh thẻ: top, bottom, left, right)
+
+* inline-block: Kết hợp của cả 2 thuộc tính trên: (áp dụng được hết và vẫn ở trong cùng 1 dòng với các nội dung khác)
+
+Khái niệm mới: Danh sách trong web ntn?
