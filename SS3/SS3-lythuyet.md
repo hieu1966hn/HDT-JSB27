@@ -5,3 +5,5 @@
 Có thể dùng class + id trong cùng 1 thẻ được không?
 
 - Có thể, nhưng với những thuộc tính trùng nhau "color": Ưu tiên lấy của id hơn.
+
+- Khái niệm flex dùng để làm gì?: flex và display: inline-flex và các thuộc tính đi kèm được sử dụng khá nhiều trong việc xử lý cấu trúc phức tạp và dễ dàng.
