@@ -1,0 +1,2 @@
+- Element: là thẻ trong HTML
+- Class: Dùng để style cho những thẻ muốn có chung thuộc tính.
