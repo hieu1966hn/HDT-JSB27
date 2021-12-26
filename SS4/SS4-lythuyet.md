@@ -4,3 +4,6 @@
 - hover: trong css: khi di chuột qua thì sẽ nhận toàn bộ thuộc tính đi kèm với hover
 
 - lorem: đoạn văn vô nghĩa trong html
+
+- margin: khoảng cách từ viền thẻ tới bên ngoài
+- padding: khoảng cách từ viền thẻ tới nội dung bên trong thẻ.

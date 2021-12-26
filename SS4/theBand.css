@@ -35,4 +35,13 @@
 }
 
 /* Home */
-#home {}
+#home {
+  max-width: 980px;
+  /* Chiều ngang tối đa: 980px */
+  margin: auto;
+}
+
+.padding-32 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
