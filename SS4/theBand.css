@@ -14,10 +14,17 @@
   border: none;
 }
 
+.center {
+  text-align: center;
+}
+
 .nav {
   background-color: black;
-  padding-top: 10px;
+  padding: 10px 0px;
 
+  /* Đi cùng màn hình */
+  position: fixed;
+  width: 100%;
 
 }
 
@@ -56,3 +63,49 @@
   display: flex;
 
 }
+
+#members h2 {
+  font-size: 28px;
+  padding-bottom: 10px;
+  font-weight: 200;
+}
+
+/* contact */
+.wide {
+  letter-spacing: 4px;
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.opacity {
+  opacity: 0.6;
+  /* làm mờ phần tử */
+}
+
+#contact p {
+  padding: 10px 0px;
+}
+
+/* Style chung  */
+.hieu-input {
+  padding: 8px;
+  display: block;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+.hieu-button {
+  color: #fff;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: black;
+  cursor: pointer;
+
+}
+
+.hieu-button:hover {
+  color: black;
+  background-color: gray;
+}
+
+/* ******************* */
