@@ -45,3 +45,14 @@
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
+
+/* Members */
+.third {
+  width: 33.3333%;
+}
+
+.row {
+  display: flex;
+
+}
