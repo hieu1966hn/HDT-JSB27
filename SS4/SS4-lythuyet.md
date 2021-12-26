@@ -2,3 +2,5 @@
   VD: navbar-item (mỗi từ cách nhau bởi dấu "-")
 
 - hover: trong css: khi di chuột qua thì sẽ nhận toàn bộ thuộc tính đi kèm với hover
+
+- lorem: đoạn văn vô nghĩa trong html
