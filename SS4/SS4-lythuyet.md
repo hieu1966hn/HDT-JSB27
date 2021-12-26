@@ -9,3 +9,7 @@
 - padding: khoảng cách từ viền thẻ tới nội dung bên trong thẻ.
 
 - thẻ <div></div>: Thường dùng để đóng khối trong HTML
+
+- thẻ <form></form>: Thường dùng để viết form feedback (phản hồi).
+
+thẻ <br> dùng để xuống dòng trong html
