@@ -7,3 +7,5 @@
 
 - margin: khoảng cách từ viền thẻ tới bên ngoài
 - padding: khoảng cách từ viền thẻ tới nội dung bên trong thẻ.
+
+- thẻ <div></div>: Thường dùng để đóng khối trong HTML
