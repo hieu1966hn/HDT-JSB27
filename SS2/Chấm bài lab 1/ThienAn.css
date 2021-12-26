@@ -1,0 +1,31 @@
+#content {
+margin-left: 200px;
+margin-right: 200px;
+}
+img {display: block; margin-left: auto; margin-right: auto;
+    width: 200px;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+body{
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png);
+    background-size: cover;
+}
+p{
+    color:white;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: ;
+}
+strong{
+    color:coral;
+}
+#list{
+    color: white;
+    margin-left: 700px;
+    margin-right: 700px;
+    font-size: xx-large;
+}
