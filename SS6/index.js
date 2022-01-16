@@ -91,6 +91,7 @@ B1: Viết trương trình in ra các số chẵn từ 1 -> 10
 output: 2,4,6,8,10
 B2: Viết trương trình nhập vào 1 số dương, nếu không phải số dương => bắt nhập lại
 Gợi ý: sử dụng "promt" để nhập giá trị từ trình duyệt.
+B3: Nhập vào 1 số nguyên dương N, xác định xem số đó có phải số nguyên tố hay không ?.
 
 */
 
@@ -130,8 +131,34 @@ Tất cả giá trị nhập vào đều được lưu lại dưới dạng ki�
 */
 
 /// Bài giải
+// let num;
+// do {
+//   num = Number(prompt("Mời người dùng nhập vào số dương"));
+//   console.log(num);
+// } while (num < 0);
+
+// Bai03: Nhập vào 1 số nguyên dương N, xác định xem số đó có phải số nguyên tố hay không ?.
+/*
+Snt: là số chỉ chia hết cho 1 và chính nó
+*/
+
 let num;
 do {
   num = Number(prompt("Mời người dùng nhập vào số dương"));
   console.log(num);
 } while (num < 0);
+
+
+// num =3;
+let dem = 0;
+for (let i = 1; i < num; i++) {
+    if(num%i==0){
+        dem++;
+    }
+}
+
+if(dem ==1){
+    alert(`số ${num} là số nguyên tố`)
+}else{
+    alert(`số ${num} không là số nguyên tố`)
+}
