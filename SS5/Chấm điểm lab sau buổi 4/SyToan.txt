@@ -1,0 +1,8 @@
+Câu 1: Trang trí cho text
+Câu 2: 
+- Khi rê chuột vào sẽ có những thuộc tính mình đã setup sẵn để trang web của mình động nhất có thể với css.
+Câu 3:
+-id chỉ có thể khai báo ID cho 1 thẻ 1 lần
+-class có thể khai báo nhiều lần
+Câu 4: A
+Câu 5: B
