@@ -81,7 +81,57 @@ Mô tả quy trình:
 
 // C2:
 
-for (let i = 1; i < 11; i++) {
-  // Code JS
-  console.log(i); // 1, 2, 3, ... ,10
-}
+// for (let i = 1; i < 11; i++) {
+//   // Code JS
+//   console.log(i); // 1, 2, 3, ... ,10
+// }
+
+/*
+B1: Viết trương trình in ra các số chẵn từ 1 -> 10
+output: 2,4,6,8,10
+B2: Viết trương trình nhập vào 1 số dương, nếu không phải số dương => bắt nhập lại
+Gợi ý: sử dụng "promt" để nhập giá trị từ trình duyệt.
+
+*/
+
+// Bài 01:
+// C1: Không khuyến nghị
+// console.log(2);
+// console.log(4);
+// console.log(6);
+// console.log(8);
+// console.log(10);
+
+// C2: Sử dụng while
+// let i = 1;
+// while (i <= 10) {
+//   // i<11
+//   if (i % 2 == 0) {
+//     console.log(i);
+//   }
+//   i++;
+// }
+
+// C3: Sử dụng for
+// for (let i = 1; i <= 10; i++) {
+//   if (i % 2 == 0) {
+//     console.log(i);
+//   }
+// }
+
+////// Bài 02:
+// let num = Number(prompt("Nhập vào 1 cái gì đó"));
+// // Ép kiểu "chuỗi" về "number"
+
+// console.log("num: ", num);
+
+/*
+Tất cả giá trị nhập vào đều được lưu lại dưới dạng kiểu dữ liệu chuỗi
+*/
+
+/// Bài giải
+let num;
+do {
+  num = Number(prompt("Mời người dùng nhập vào số dương"));
+  console.log(num);
+} while (num < 0);
