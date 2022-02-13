@@ -37,3 +37,21 @@
 // function sum() {
 //   return "Đây là hàm có giá trị trả về"
 // }
+
+
+////// VD: 
+function greet(name) {
+  console.log("Hello " + name);// Hello Nguyễn Hiếu
+}
+
+greet("Nguyễn Hiếu");//
+greet("Hoàng Vũ");//
+greet(123);//
+greet(['Nguyễn', "Trung", 'Hiếu']);//
+greet(true);//
+greet();//
+
+/*
+NX: Để gọi tới hàm ta viết cú pháp: tenHam()
+(): Call back hay gọi là cú pháp thực thi hàm.
+*/
