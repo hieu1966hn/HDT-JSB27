@@ -33,7 +33,7 @@
   </script> -->
 
 
-  <div class="navbar">Đây là thẻ div 1 </div>
+  <!-- <div class="navbar">Đây là thẻ div 1 </div>
   <div class="navbar">Đây là thẻ div 2</div>
   <script>
     const div = document.getElementsByClassName("navbar");// kq là 1 mảng
@@ -44,6 +44,20 @@
 
     /// Đổi màu chữ thẻ div 1 thành màu blue
     div[1].style.color = "blue"
+
+  </script> -->
+
+
+  <p>Đây là thẻ p1</p>
+  <div>Đây là thẻ div</div>
+  <p>Đây là thẻ p2</p>
+  <script>
+    const p = document.getElementsByTagName("p"); // mảng chứa tất cả thẻ p trong body
+    console.log("p: ", p);
+    // đổi màu thẻ p1 thành màu orange
+    p[0].style.color = "orange"
+    // đổi màu thẻ p2 thành màu pink
+    p[1].style.color = "pink"
 
   </script>
 
