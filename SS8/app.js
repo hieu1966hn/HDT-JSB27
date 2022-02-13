@@ -39,19 +39,40 @@
 // }
 
 
-////// VD: 
-function greet(name) {
-  console.log("Hello " + name);// Hello Nguyễn Hiếu
-}
+// ////// VD:
+// function greet(name) {
+//   console.log("Hello " + name);// Hello Nguyễn Hiếu
+// }
 
-greet("Nguyễn Hiếu");//
-greet("Hoàng Vũ");//
-greet(123);//
-greet(['Nguyễn', "Trung", 'Hiếu']);//
-greet(true);//
-greet();//
+// greet("Nguyễn Hiếu");//
+// greet("Hoàng Vũ");//
+// greet(123);//
+// greet(['Nguyễn', "Trung", 'Hiếu']);//
+// greet(true);//
+// greet();//
 
 /*
 NX: Để gọi tới hàm ta viết cú pháp: tenHam()
 (): Call back hay gọi là cú pháp thực thi hàm.
 */
+
+
+/*
+Xây dựng hàm "sum" có 2 tham số truyền vào là
+số a và b và trả về (return) kết quả là  a+b:
+
+Sau đó chạy hàm.
+*/
+// Hàm cộng 2 số bất kỳ;
+function sum(a, b) {
+  return a + b;
+}
+
+
+console.log(
+  sum(1, 2)
+); // => 3
+
+console.log(
+  sum(99, 100)
+); // => 199
