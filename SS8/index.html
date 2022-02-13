@@ -48,7 +48,7 @@
   </script> -->
 
 
-  <p>Đây là thẻ p1</p>
+  <!-- <p>Đây là thẻ p1</p>
   <div>Đây là thẻ div</div>
   <p>Đây là thẻ p2</p>
   <script>
@@ -59,7 +59,30 @@
     // đổi màu thẻ p2 thành màu pink
     p[1].style.color = "pink"
 
+  </script> -->
+
+
+  <!-- Áp dụng hàm (function) vào dom -->
+  <button onclick="tang()">Tăng</button>
+  <div id="number">0</div>
+  <button>Giảm</button>
+  <script>
+    // const button = document.getElementsByTagName("button");
+    // console.log("button: ", button);
+    const number = document.getElementById("number")
+    console.log("number: ", number);
+
+    function tang() {
+      let temp = Number(number.innerHTML)
+      temp++; // temp = temp + 1 
+      number.innerHTML = temp
+    }
+
+
+
+
   </script>
+
 
   <script src="./app.js"></script>
 </body>
