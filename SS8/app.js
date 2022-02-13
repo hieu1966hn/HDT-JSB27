@@ -64,15 +64,53 @@ số a và b và trả về (return) kết quả là  a+b:
 Sau đó chạy hàm.
 */
 // Hàm cộng 2 số bất kỳ;
-function sum(a, b) {
-  return a + b;
+// function sum(a, b) {
+//   return a + b;
+// }
+
+
+// console.log(
+//   sum(1, 2)
+// ); // => 3
+
+// console.log(
+//   sum(99, 100)
+// ); // => 199
+
+
+
+
+/*
+Bài Toán
+1. Viết hàm kiểm tra số nguyên tố
+2. Áp dụng vào để in ra các số nguyên tố nhỏ hơn 100;
+
+SNT: là số chỉ chia hết cho 1 và chính nó;
+*/
+
+// Lưu ý: Đặt tên hàm theo quy tắc "camel case": đầu chữ viết thường, từ chữ thứ 2 viết hoa ký tự đầu
+function kiemTraSoNguyenTo(n) { // n = 3;
+  let dem = 0;
+  for (let i = 1; i <= n; i++) {
+    if (n % i == 0) {
+      dem = dem + 1; // 1,2
+    }
+  }
+
+  if (dem == 2) {
+    return n; // đây là số nguyên tố
+  }
+  else {
+    return false;
+  }
 }
 
+// console.log(
+//   kiemTraSoNguyenTo(4)//  in ra
+// );
 
-console.log(
-  sum(1, 2)
-); // => 3
-
-console.log(
-  sum(99, 100)
-); // => 199
+for (let i = 1; i <= 100; i++) {
+  if (kiemTraSoNguyenTo(i) != false) {
+    console.log(i);
+  }
+}
