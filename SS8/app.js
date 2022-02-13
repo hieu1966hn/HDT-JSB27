@@ -89,28 +89,30 @@ SNT: là số chỉ chia hết cho 1 và chính nó;
 */
 
 // Lưu ý: Đặt tên hàm theo quy tắc "camel case": đầu chữ viết thường, từ chữ thứ 2 viết hoa ký tự đầu
-function kiemTraSoNguyenTo(n) { // n = 3;
-  let dem = 0;
-  for (let i = 1; i <= n; i++) {
-    if (n % i == 0) {
-      dem = dem + 1; // 1,2
-    }
-  }
+// function kiemTraSoNguyenTo(n) { // n = 3;
+//   let dem = 0; //Biến đêm dùng để tăng lên mỗi lần n % cho 1 số nào đó.
+//   for (let i = 1; i <= n; i++) {
+//     if (n % i == 0) {
+//       dem = dem + 1; // 1,2
+//     }
+//   }
 
-  if (dem == 2) {
-    return n; // đây là số nguyên tố
-  }
-  else {
-    return false;
-  }
-}
+//   /// qua đoạn code trên thì hiểu là dem == 2 => đó là số nguyên tố
 
-// console.log(
-//   kiemTraSoNguyenTo(4)//  in ra
-// );
+//   if (dem == 2) {
+//     return n; // đây là số nguyên tố
+//   }
+//   else {
+//     return false;
+//   }
+// }
 
-for (let i = 1; i <= 100; i++) {
-  if (kiemTraSoNguyenTo(i) != false) {
-    console.log(i);
-  }
-}
+// // console.log(
+// //   kiemTraSoNguyenTo(4)//  in ra
+// // );
+
+// for (let i = 1; i <= 100; i++) {
+//   if (kiemTraSoNguyenTo(i) != false) { // 3 != false
+//     console.log(i); //2,3
+//   }
+// }
