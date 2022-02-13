@@ -137,7 +137,7 @@ Tất cả giá trị nhập vào đều được lưu lại dưới dạng ki�
 //   console.log(num);
 // } while (num < 0);
 
-// Bai03: Nhập vào 1 số nguyên dương N, xác định xem số đó có phải số nguyên tố hay không ?.
+// Chữa Bai03: Nhập vào 1 số nguyên dương N, xác định xem số đó có phải số nguyên tố hay không ?.
 /*
 Snt: là số chỉ chia hết cho 1 và chính nó
 */
