@@ -5,14 +5,41 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Form</title>
 
-  <style>
-    body {}
-  </style>
 </head>
 
 <body>
+  <!--  form action -->
+  <h2>MindX Form Biểu mẫu đăng ký </h2>
+  <form id="info">
+    Họ: <br>
+    <input type="text" name="lastName">
+    <br>
+    Tên: <br>
+    <input type="text" name="firstName">
+    <br>
+    Giới tính <br>
+    <input type="radio" id="nam" name="gender" value="nam">
+    <label for="nam">Nam</label>
+
+    <input type="radio" id="nu" name="gender" value="nu">
+    <label for="nu">Nu</label>
+
+    <br>
+    <h4>Hãy chọn thành phố nơi bạn sinh sống</h4>
+    <input type="radio" name="city" value="hanoi"> Hà Nội <br>
+    <input type="radio" name="city" value="danang"> Đà Nẵng <br>
+    <input type="radio" name="city" value="saigon"> Sài Gòn <br>
+
+    <!-- Nút submit -->
+    <input type="submit">
+
+    <!-- C2 submit -->
+    <!-- <button type="submit">Submit</button> -->
+  </form>
+
+
 
   <!-- Nhúng file app.js vào đây -->
   <script src="./app.js"></script>
