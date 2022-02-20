@@ -18,3 +18,10 @@ Có các dạng input như sau
 * Cú pháp:
 
 - <input type ="submit">: Định nghĩa một nút để khi bấm vào đó sẽ gửi dữ liệu đi (đi form-handler)
+
+- addEventListner() trong JS: la phuong thức được tích hợp sẵn vào các đối tượng HTML thông qua cơ chế DOM. Khi sử dụng addEventListner thì chúng ta có thể bổ sung rất nhiều hành động vào sự kiện tại nhiều thời điểm khác nhau;
+
+* Cú pháp addEventListner:
+  elementObject.addEventListener( "eventName" , function (e){
+  .... do something
+  })

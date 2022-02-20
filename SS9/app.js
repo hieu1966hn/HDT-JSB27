@@ -31,3 +31,23 @@ Tôi muốn lưu trữ dữ liệu bạn gái này thì phải lưu cái gì đ�
 
 
 
+// Bắt đầu thực hành lấy dữ liệu trong Form
+
+// Tạo ra 1 biến để chứa thẻ form đó
+const formElement = document.getElementById(`info`);
+// AddEventListener
+formElement.addEventListener("submit", function (e) {
+  //  Ngan su kien reload mac dinh cua trinh duyet ta su dung
+  e.preventDefault(); // ngan thanh cong trinh duyet tự động reload
+  const data = {
+    lastName: formElement.lastName.value,
+    firstName: formElement.firstName.value,
+    gender: formElement.gender.value,
+    city: formElement.city.value,
+  }
+  console.log(data);
+  formElement.lastName.value = ""
+  formElement.firstName.value = ""
+})
+
+
